@@ -39,6 +39,7 @@ class MerkleTree:
         except AttributeError:
             return item
 
+# concat and hash a bunch of items
 def hash(items):
     concat = ""
     for item in items:
